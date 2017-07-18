@@ -1,0 +1,134 @@
+body{
+  background: url(https://cdn.pixabay.com/photo/2017/06/28/11/21/lake-2450332_960_720.jpg);
+  background-size: cover;
+  font-family:'Montserrat', sans-serif;
+  height:100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+html{
+  height: 100%;
+}
+
+#content{
+  text-align: center;
+  padding-top: 15%;
+  color: white;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+              0px 8px 13px rgba(0, 0, 0, 0.1),
+              0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+.navbar{
+  background-color: rgba(159, 174, 198, 0.6);
+}
+
+.navbar-default .navbar-nav>li>a{
+  color: white;
+}
+
+h1{
+  font-family: 'Lobster Two', cursive;
+  font-size: 4em;
+  font-weight: 700;
+}
+
+.book-front{
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2em;
+  border: 2px solid white;
+  padding: 10px;
+}
+
+.book-front:hover{
+  color: white;
+  background-color: rgba(159, 174, 198, 0.5);
+}
+
+.book-front:hover, .book-front:active, .book-front:visited, .book-front:focus{
+    text-decoration: none;
+    color: white;
+}
+
+h3{
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.navbar-right{
+  font-size: 1.5em;
+}
+
+.about-body, .body-gallery, .body-location{
+  width: 80%;
+  text-align: center;
+  margin: 5% auto 0 auto;
+}
+
+.page-about, .content-location, .page-contact{
+    background-color: rgba(132, 144, 163, 0.8);
+    color: white;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+                0px 8px 13px rgba(0, 0, 0, 0.1),
+                0px 18px 23px rgba(0, 0, 0, 0.1);
+    padding-bottom: 10px;
+}
+
+.thumbnail {
+    background-color: rgba(132, 144, 163, 0.8);
+}
+
+.thumbnail img {
+  height: 220px;
+}
+
+.google-map{
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+}
+
+.google-map iframe {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  padding-right: 10px;
+}
+
+.loc-text{
+  padding-top: 20px;
+}
+
+.form-group{
+  width: 80%;
+  display: inline-block;
+  text-align: center;
+}
+
+#contact-p{
+  font-size: 1.2em;
+  padding-bottom: 15px;
+}
+
+.btn btn-default{
+  text-align: center;
+}
+
+#submit:hover{
+  text-decoration: none;
+  background-color: rgba(0, 124, 64, 0.8);
+  color: white;
+}
+
+.form-group{
+  padding-bottom: 10px;
+}
+
+.form-name{
+  margin-top: 20px;
+}
